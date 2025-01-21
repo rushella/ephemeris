@@ -1,6 +1,5 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { RouterView } from 'vue-router'
 
 export default defineComponent({
   name: 'App',
@@ -8,5 +7,11 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline bg-slate-800">Tilewind test</h1>
+  <div class="relative h-screen">
+    <div class="absolute inset-0">
+      <div class="app-background-dark">
+        <div></div>
+      </div>
+    </div>
+  </div>
 </template>
