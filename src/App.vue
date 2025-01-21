@@ -7,11 +7,5 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="relative h-screen">
-    <div class="absolute inset-0">
-      <div class="app-background-dark">
-        <div></div>
-      </div>
-    </div>
-  </div>
+  <div class="app-bg-dark"></div>
 </template>
