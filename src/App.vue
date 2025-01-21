@@ -8,9 +8,5 @@ export default defineComponent({
 </script>
 
 <template>
-  <Window :is-active="false" />
-
-  <div>
-    <RouterView />
-  </div>
+  <h1 class="text-3xl font-bold underline bg-slate-800">Tilewind test</h1>
 </template>
